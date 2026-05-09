@@ -28,7 +28,7 @@ print(df.shape)
 
 
 DATABASE_URL = (
-    "postgresql://postgres:Tejas%40555@localhost:5432/quick_commerce_db"
+    "postgresql://postgres:admin@123@localhost:5432/quick_commerce_db"
 )
 
 engine = create_engine(DATABASE_URL)
